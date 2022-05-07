@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background-image:url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight: bold;
+}
+
+#b_1 {
+    font-size: 20px;
+}
+
+canvas {
+    animation-name: colors;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colors {
+    from{box-shadow: 4px 4px 38px crimson;}
+    to{box-shadow: 4px 4px 38px rebeccapurple;}
+}
